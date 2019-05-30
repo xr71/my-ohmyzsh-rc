@@ -100,4 +100,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-PATH=~/miniconda3/bin:$PATH
+# ANACONDA3 and MINICONDA3 optional, uncomment only when necessary
+# PATH=~/miniconda3/bin:$PATH
