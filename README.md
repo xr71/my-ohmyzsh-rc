@@ -4,3 +4,10 @@ This is my .zshrc file. It uses the fantastic `Oh My Zsh`, which will need to be
 ```
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+
+## Using zsh-autosuggestions
+My zshrc also leverages the autosuggestions plugins from here: https://github.com/zsh-users/zsh-autosuggestions  
+After installing oh-my-zsh, run the following command to clone zsh-autosuggestions
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
