@@ -11,3 +11,10 @@ After installing oh-my-zsh, run the following command to clone zsh-autosuggestio
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
+
+## TMUX-CONFIG
+To use tmux-config that supercharges your tmux environment:
+```
+$ git clone https://github.com/samoshkin/tmux-config.git
+$ ./tmux-config/install.sh
+```
