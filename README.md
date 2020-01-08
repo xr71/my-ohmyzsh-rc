@@ -18,3 +18,16 @@ To use tmux-config that supercharges your tmux environment:
 $ git clone https://github.com/samoshkin/tmux-config.git
 $ ./tmux-config/install.sh
 ```
+
+## `goto` utility
+"The goto shell utility allows users to navigate to aliased directories and also supports autocompletion."
+```
+git clone https://github.com/iridakos/goto.git
+cd goto
+sudo ./install
+```
+Will need to add it to `.zshrc` file
+```
+# Source goto
+[[ -s "/usr/local/share/goto.sh" ]] && source /usr/local/share/goto.sh
+```
