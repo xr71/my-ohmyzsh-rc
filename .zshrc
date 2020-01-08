@@ -102,3 +102,6 @@ source $ZSH/oh-my-zsh.sh
 #
 # ANACONDA3 and MINICONDA3 optional, uncomment only when necessary
 # PATH=~/miniconda3/bin:$PATH
+
+# Source goto
+[[ -s "/usr/local/share/goto.sh" ]] && source /usr/local/share/goto.sh
